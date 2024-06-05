@@ -12,6 +12,4 @@ let utilisateurs = [
 
 ];
 
-let utilisateurTrouve = trouverPremiereOccurrence(utilisateurs, 'nom', 'Paul');
-console.log(utilisateurTrouve);
 

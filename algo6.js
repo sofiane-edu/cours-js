@@ -15,3 +15,18 @@ let fruits = ["Banane", "Abricot", "Pomme", "Avocat", "Poire", "Ananas", "Coing"
 
 let fruitsGroupes = regrouperParPremiereLettre(fruits);
 console.log(fruitsGroupes);
+
+
+
+
+
+// Fonction qui trie un tableau de chaînes de caractères par ordre alphabétique
+function trierAlphabetiquement(tableau) {
+    return tableau.sort((a, b) => a.localeCompare(b));
+}
+
+// Exemple d'utilisation
+let fruits = ["Banane", "Abricot", "Pomme", "Avocat", "Poire", "Ananas", "Coing"];
+
+let fruitsTries = trierAlphabetiquement(fruits);
+console.log(fruitsTries); // Affiche ["Abricot", "Ananas", "Avocat", "Banane", "Poire", "Pomme"]
